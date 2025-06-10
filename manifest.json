@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Motivational Lo Bhai",
+  "name": "Motivation Lo Bhai",
   "short_name": "Motivation Lo Bhai",
   "version": "1.0",
   "description": "Shows motivational quotes dynamically from multiple sources in the new tab of browser.",
