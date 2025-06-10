@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Motivational Lo Bhai",
+  "short_name": "Motivation Lo Bhai",
+  "version": "1.0",
+  "description": "Shows motivational quotes dynamically from multiple sources in the new tab of browser.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://zenquotes.io/*",
+    "https://api.realinspire.live/*",
+    "https://quoteslate.vercel.app/*"
+  ]
+}
